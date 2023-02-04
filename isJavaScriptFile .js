@@ -9,5 +9,5 @@ function isJavaScriptFile(fileName) {
   }
 }
 
-const getJavaScript = isJavaScriptFile('app.png');
+const getJavaScript = isJavaScriptFile(23);
 console.log(getJavaScript);

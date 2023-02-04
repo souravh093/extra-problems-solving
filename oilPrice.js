@@ -10,5 +10,5 @@ function oilPrice(per1, per2, per3) {
     return petrol + diesel + octane;
 }
 
-const getOilPrice = oilPrice(1, 1, 'sum');
+const getOilPrice = oilPrice(1, 1, 1);
 console.log(getOilPrice);
